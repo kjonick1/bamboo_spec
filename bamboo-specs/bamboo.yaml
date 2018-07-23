@@ -1,11 +1,11 @@
 project:
-  key: Dragon
+  key: SPECTEST
   plan:
-    key: SLAYER
-    name: Dragon Slayer Quest
+    key: TEST
+    name: Test Spec Yaml
 stages:
   - jobs:
     - scripts:
-      - echo 'Going to slay the dragon, watch me'
+      - echo 'This is from yaml in git'
       - sleep 1
       - echo 'Nailed it'
