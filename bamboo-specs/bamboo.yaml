@@ -9,3 +9,5 @@ stages:
           - echo 'Going to slay the red dragon, watch me'
           - sleep 1
           - echo 'Nailed it'
+          - sleep 1
+          - echo 'Another update'
